@@ -1,4 +1,4 @@
-use xelis_environment::{
+use dapa_environment::{
     FnInstance,
     FnParams,
     FnReturnType,

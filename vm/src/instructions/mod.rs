@@ -8,7 +8,7 @@ use r#impl::*;
 use iterator::*;
 use constructor::*;
 
-use xelis_bytecode::OpCode;
+use dapa_bytecode::OpCode;
 
 use crate::Context;
 

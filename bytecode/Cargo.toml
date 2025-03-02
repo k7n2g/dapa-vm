@@ -1,9 +1,9 @@
 [package]
-name = "xelis-bytecode"
+name = "dapa-bytecode"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
 indexmap = "2.7.0"
 serde = { version = "1.0.215", features = ["derive"] }
-xelis-types = { path = "../types" }
+dapa-types = { path = "../types" }

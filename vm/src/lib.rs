@@ -11,9 +11,9 @@ mod tests;
 use stack::Stack;
 
 // Re-export the necessary types
-pub use xelis_environment::*;
+pub use dapa_environment::*;
 pub use dapa_types::*;
-pub use xelis_bytecode::*;
+pub use dapa_bytecode::*;
 
 pub use validator::*;
 pub use instructions::*;

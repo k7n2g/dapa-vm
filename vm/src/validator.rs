@@ -1,7 +1,7 @@
 use thiserror::Error;
-use xelis_environment::Environment;
+use dapa_environment::Environment;
 use dapa_types::{EnumType, EnumVariant, StructType, Type, Value, ValueError, Constant};
-use xelis_bytecode::{Module, OpCode};
+use dapa_bytecode::{Module, OpCode};
 
 use crate::ChunkReader;
 

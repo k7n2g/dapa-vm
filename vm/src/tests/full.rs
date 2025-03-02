@@ -1,8 +1,8 @@
-use xelis_compiler::Compiler;
-use xelis_environment::{Environment, EnvironmentError};
-use xelis_builder::EnvironmentBuilder;
-use xelis_lexer::Lexer;
-use xelis_parser::Parser;
+use dapa_compiler::Compiler;
+use dapa_environment::{Environment, EnvironmentError};
+use dapa_builder::EnvironmentBuilder;
+use dapa_lexer::Lexer;
+use dapa_parser::Parser;
 use dapa_types::Value;
 use super::*;
 

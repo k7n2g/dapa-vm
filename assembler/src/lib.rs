@@ -5,7 +5,7 @@ use opcode::OpCodeWithArgs;
 
 use thiserror::Error;
 use dapa_types::Constant;
-use xelis_bytecode::{Chunk, Module};
+use dapa_bytecode::{Chunk, Module};
 
 #[derive(Debug, Error)]
 pub enum AssemblerError {
@@ -82,7 +82,7 @@ impl<'a> Assembler<'a> {
 
 #[cfg(test)]
 mod tests {
-    use xelis_bytecode::OpCode;
+    use dapa_bytecode::OpCode;
     use super::*;
 
     #[test]

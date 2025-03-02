@@ -1,5 +1,5 @@
-use xelis_ast::Expression;
-use xelis_environment::EnvironmentError;
+use dapa_ast::Expression;
+use dapa_environment::EnvironmentError;
 use thiserror::Error;
 use dapa_types::{IdentifierType, Type, ValueError};
 

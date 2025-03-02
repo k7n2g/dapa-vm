@@ -1,5 +1,5 @@
 use thiserror::Error;
-use xelis_environment::EnvironmentError;
+use dapa_environment::EnvironmentError;
 use dapa_types::{Value, ValueError};
 
 #[derive(Debug, Error)]

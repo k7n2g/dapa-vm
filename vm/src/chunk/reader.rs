@@ -1,4 +1,4 @@
-use xelis_bytecode::OpCode;
+use dapa_bytecode::OpCode;
 use dapa_types::Type;
 use crate::VMError;
 use super::Chunk;

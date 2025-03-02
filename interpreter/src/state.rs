@@ -1,4 +1,4 @@
-use xelis_environment::Context;
+use dapa_environment::Context;
 use crate::InterpreterError;
 
 // State is used to store the number of expressions executed and the number of recursive calls

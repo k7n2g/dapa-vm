@@ -41,7 +41,7 @@ version = "0.1.0"
 dependencies = [
  "log",
  "thiserror",
- "xelis-bytecode",
+ "dapa-bytecode",
  "dapa_types",
 ]
 
@@ -255,11 +255,11 @@ name = "interpreter"
 version = "0.1.0"
 dependencies = [
  "thiserror",
- "xelis-ast",
- "xelis-builder",
- "xelis-environment",
- "xelis-lexer",
- "xelis-parser",
+ "dapa-ast",
+ "dapa-builder",
+ "dapa-environment",
+ "dapa-lexer",
+ "dapa-parser",
  "dapa_types",
 ]
 
@@ -705,7 +705,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "589f6da84c646204747d1270a2a5661ea66ed1cced2631d546fdfb155959f9ec"
 
 [[package]]
-name = "xelis-ast"
+name = "dapa-ast"
 version = "0.1.0"
 dependencies = [
  "indexmap",
@@ -713,18 +713,18 @@ dependencies = [
 ]
 
 [[package]]
-name = "xelis-builder"
+name = "dapa-builder"
 version = "0.1.0"
 dependencies = [
  "paste",
  "thiserror",
- "xelis-ast",
- "xelis-environment",
+ "dapa-ast",
+ "dapa-environment",
  "dapa_types",
 ]
 
 [[package]]
-name = "xelis-bytecode"
+name = "dapa-bytecode"
 version = "0.1.0"
 dependencies = [
  "indexmap",
@@ -733,22 +733,22 @@ dependencies = [
 ]
 
 [[package]]
-name = "xelis-compiler"
+name = "dapa-compiler"
 version = "0.1.0"
 dependencies = [
  "log",
  "thiserror",
- "xelis-ast",
- "xelis-builder",
- "xelis-bytecode",
- "xelis-environment",
- "xelis-lexer",
- "xelis-parser",
+ "dapa-ast",
+ "dapa-builder",
+ "dapa-bytecode",
+ "dapa-environment",
+ "dapa-lexer",
+ "dapa-parser",
  "dapa_types",
 ]
 
 [[package]]
-name = "xelis-environment"
+name = "dapa-environment"
 version = "0.1.0"
 dependencies = [
  "anyhow",
@@ -760,25 +760,25 @@ dependencies = [
 ]
 
 [[package]]
-name = "xelis-lexer"
+name = "dapa-lexer"
 version = "0.1.0"
 dependencies = [
  "log",
  "thiserror",
- "xelis-ast",
+ "dapa-ast",
  "dapa_types",
 ]
 
 [[package]]
-name = "xelis-parser"
+name = "dapa-parser"
 version = "0.1.0"
 dependencies = [
  "indexmap",
  "log",
  "thiserror",
- "xelis-ast",
- "xelis-builder",
- "xelis-environment",
+ "dapa-ast",
+ "dapa-builder",
+ "dapa-environment",
  "dapa_types",
 ]
 
@@ -800,11 +800,11 @@ version = "0.1.0"
 dependencies = [
  "criterion",
  "thiserror",
- "xelis-builder",
- "xelis-bytecode",
- "xelis-compiler",
- "xelis-environment",
- "xelis-lexer",
- "xelis-parser",
+ "dapa-builder",
+ "dapa-bytecode",
+ "dapa-compiler",
+ "dapa-environment",
+ "dapa-lexer",
+ "dapa-parser",
  "dapa_types",
 ]

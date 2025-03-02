@@ -1,5 +1,5 @@
 use thiserror::Error;
-use xelis_ast::Operator;
+use dapa_ast::Operator;
 
 #[derive(Debug, Error)]
 pub enum CompilerError {

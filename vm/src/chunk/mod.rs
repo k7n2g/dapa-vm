@@ -1,7 +1,7 @@
 mod reader;
 
 use std::ops::{Deref, DerefMut};
-use xelis_bytecode::Chunk;
+use dapa_bytecode::Chunk;
 use dapa_types::Path;
 use super::{iterator::PathIterator, VMError};
 pub use reader::ChunkReader;

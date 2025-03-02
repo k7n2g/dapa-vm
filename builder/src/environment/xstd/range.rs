@@ -1,4 +1,4 @@
-use xelis_environment::{Context, EnvironmentError, FnInstance, FnParams, FnReturnType};
+use dapa_environment::{Context, EnvironmentError, FnInstance, FnParams, FnReturnType};
 use dapa_types::{Type, Value, ValueCell};
 use paste::paste;
 

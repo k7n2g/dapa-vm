@@ -1,7 +1,7 @@
 use std::{borrow::Cow, collections::VecDeque};
 use thiserror::Error;
 use log::{debug, trace};
-use xelis_ast::{Literal, NumberType, Token, TokenResult};
+use dapa_ast::{Literal, NumberType, Token, TokenResult};
 use dapa_types::U256;
 
 macro_rules! parse_number {

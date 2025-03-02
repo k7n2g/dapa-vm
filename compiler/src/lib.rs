@@ -2,15 +2,15 @@ mod error;
 
 use std::iter;
 use log::{trace, warn};
-use xelis_ast::{
+use dapa_ast::{
     Expression,
     FunctionType,
     Operator,
     Statement,
     Program
 };
-use xelis_environment::Environment;
-use xelis_bytecode::{Chunk, Module, OpCode};
+use dapa_environment::Environment;
+use dapa_bytecode::{Chunk, Module, OpCode};
 
 pub use error::CompilerError;
 
@@ -770,9 +770,9 @@ impl<'a> Compiler<'a> {
 
 #[cfg(test)]
 mod tests {
-    use xelis_builder::EnvironmentBuilder;
-    use xelis_lexer::Lexer;
-    use xelis_parser::Parser;
+    use dapa_builder::EnvironmentBuilder;
+    use dapa_lexer::Lexer;
+    use dapa_parser::Parser;
     use dapa_types::Value;
 
     use super::*;

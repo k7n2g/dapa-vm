@@ -4,13 +4,13 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-xelis-types = { path = "../types" }
-xelis-ast = { path = "../ast" }
-xelis-environment = { path = "../environment" }
+dapa-types = { path = "../types" }
+dapa-ast = { path = "../ast" }
+dapa-environment = { path = "../environment" }
 thiserror = "2.0.1"
 
 [dev-dependencies]
-xelis-ast = { path = "../ast" }
-xelis-lexer ={ path = "../lexer" }
-xelis-parser = { path = "../parser" }
-xelis-builder = { path = "../builder" }
+dapa-ast = { path = "../ast" }
+dapa-lexer ={ path = "../lexer" }
+dapa-parser = { path = "../parser" }
+dapa-builder = { path = "../builder" }

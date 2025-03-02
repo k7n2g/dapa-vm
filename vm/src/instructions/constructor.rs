@@ -1,5 +1,5 @@
 use std::collections::{HashMap, VecDeque};
-use xelis_environment::EnvironmentError;
+use dapa_environment::EnvironmentError;
 use dapa_types::{EnumValueType, Path, Value, ValueCell};
 
 use crate::{stack::Stack, Backend, ChunkManager, Context, VMError};

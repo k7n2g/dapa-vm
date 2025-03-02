@@ -1,11 +1,11 @@
 use criterion::{criterion_group, criterion_main, Criterion};
-use xelis_builder::EnvironmentBuilder;
-use xelis_bytecode::Module;
-use xelis_compiler::Compiler;
-use xelis_environment::Environment;
-use xelis_lexer::Lexer;
-use xelis_parser::Parser;
-use xelis_vm::VM;
+use dapa_builder::EnvironmentBuilder;
+use dapa_bytecode::Module;
+use dapa_compiler::Compiler;
+use dapa_environment::Environment;
+use dapa_lexer::Lexer;
+use dapa_parser::Parser;
+use dapa_vm::VM;
 
 macro_rules! bench {
     ($group: expr, $name: expr, $code: expr, $id: expr) => {

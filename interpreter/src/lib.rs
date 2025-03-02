@@ -2,7 +2,7 @@ mod stack;
 mod state;
 mod error;
 
-use xelis_environment::{Environment, NativeFunction};
+use dapa_environment::{Environment, NativeFunction};
 use dapa_types::{
     IdentifierType,
     NoHashMap,
@@ -10,7 +10,7 @@ use dapa_types::{
     Type,
     Value,
 };
-use xelis_ast::{
+use dapa_ast::{
     Expression, FunctionType, Operator, Parameter, Program, Statement
 };
 use stack::Stack;
@@ -569,10 +569,10 @@ impl<'a> Interpreter<'a> {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use xelis_ast::Signature;
-    use xelis_lexer::Lexer;
-    use xelis_parser::Parser;
-    use xelis_builder::EnvironmentBuilder;
+    use dapa_ast::Signature;
+    use dapa_lexer::Lexer;
+    use dapa_parser::Parser;
+    use dapa_builder::EnvironmentBuilder;
 
     #[track_caller]
     fn test_code_expect_value(key: &Signature, code: &str) -> Value {

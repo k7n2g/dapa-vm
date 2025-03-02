@@ -1,9 +1,9 @@
 pub mod xstd;
 
 use std::{borrow::Cow, collections::HashMap};
-use xelis_ast::Signature;
+use dapa_ast::Signature;
 use dapa_types::{Constant, EnumType, OpaqueType, Opaque, StructType, Type};
-use xelis_environment::{Environment, NativeFunction, OnCallFn};
+use dapa_environment::{Environment, NativeFunction, OnCallFn};
 use crate::{EnumManager, EnumVariantBuilder, FunctionMapper, StructManager};
 
 // EnvironmentBuilder is used to create an environment

@@ -6,7 +6,7 @@ mod range;
 mod map;
 
 use dapa_types::{Type, Value};
-use xelis_environment::{
+use dapa_environment::{
     EnvironmentError,
     FnInstance,
     FnParams,

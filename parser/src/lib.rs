@@ -11,9 +11,9 @@ use error::ParserErrorKind;
 use indexmap::IndexMap;
 use log::trace;
 use mapper::GlobalMapper;
-use xelis_builder::{Builder, EnvironmentBuilder};
-use xelis_ast::*;
-use xelis_environment::NativeFunction;
+use dapa_builder::{Builder, EnvironmentBuilder};
+use dapa_ast::*;
+use dapa_environment::NativeFunction;
 use dapa_types::*;
 use context::Context;
 

@@ -1,5 +1,5 @@
 use dapa_types::{Type, Value, ValueCell};
-use xelis_environment::{Context, EnvironmentError, FnInstance, FnParams, FnReturnType};
+use dapa_environment::{Context, EnvironmentError, FnInstance, FnParams, FnReturnType};
 use super::EnvironmentBuilder;
 
 pub fn register(env: &mut EnvironmentBuilder) {

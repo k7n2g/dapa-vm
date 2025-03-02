@@ -1,6 +1,6 @@
 use std::collections::HashMap;
 
-use xelis_ast::{Expression, Signature};
+use dapa_ast::{Expression, Signature};
 use dapa_types::{IdentifierType, NoHashMap, Type};
 
 use crate::BuilderError;

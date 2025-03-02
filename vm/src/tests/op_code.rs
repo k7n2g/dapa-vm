@@ -1,7 +1,7 @@
 use super::*;
 
-use xelis_bytecode::{Chunk, Module, OpCode};
-use xelis_environment::EnvironmentError;
+use dapa_bytecode::{Chunk, Module, OpCode};
+use dapa_environment::EnvironmentError;
 use dapa_types::{Type, Value, ValueError};
 
 fn try_run(module: Module) -> Result<Value, VMError> {

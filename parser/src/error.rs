@@ -1,8 +1,8 @@
 use std::borrow::Cow;
 
 use thiserror::Error;
-use xelis_ast::{Expression, Token};
-use xelis_builder::BuilderError;
+use dapa_ast::{Expression, Token};
+use dapa_builder::BuilderError;
 use dapa_types::{Type, ValueError, IdentifierType};
 
 #[derive(Debug, Error)]

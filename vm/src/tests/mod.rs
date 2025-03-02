@@ -1,5 +1,5 @@
-use xelis_builder::EnvironmentBuilder;
-use xelis_bytecode::Module;
+use dapa_builder::EnvironmentBuilder;
+use dapa_bytecode::Module;
 use crate::*;
 
 /// This module contains all the tests for the VM

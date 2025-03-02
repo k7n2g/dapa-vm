@@ -1,4 +1,4 @@
-use xelis_builder::{EnumManager, EnvironmentBuilder, FunctionMapper, StructManager};
+use dapa_builder::{EnumManager, EnvironmentBuilder, FunctionMapper, StructManager};
 
 #[derive(Debug)]
 pub struct GlobalMapper<'a> {
